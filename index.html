@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio BTS SIO SISR — [Ton Prénom NOM]</title>
+<style>
+:root{--bg:#0b1220;--card:#111c31;--card2:#0f1a2e;--accent:#38bdf8;--accent2:#22d3ee;--text:#e2e8f0;--muted:#94a3b8;--border:#243449}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+header{background:linear-gradient(135deg,#0284c7,#1d4ed8);padding:90px 20px 70px;text-align:center}
+header h1{font-size:2.6rem;margin-bottom:12px}
+header p{color:#e0f2fe;font-size:1.15rem}
+header .tags{margin-top:18px}
+header .tag{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);padding:6px 14px;border-radius:999px;margin:4px;font-size:.9rem}
+nav{background:#0a1526;padding:14px;text-align:center;position:sticky;top:0;z-index:10;border-bottom:1px solid var(--border)}
+nav a{color:var(--text);text-decoration:none;margin:0 12px;font-weight:600}
+nav a:hover{color:var(--accent)}
+main{max-width:1100px;margin:auto;padding:35px 20px}
+section{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;margin-bottom:32px}
+h2{color:var(--accent);margin-bottom:18px;font-size:1.7rem}
+h3{margin:16px 0 8px;color:#f8fafc}
+p{margin-bottom:10px}
+ul{margin:10px 0 10px 22px}
+li{margin-bottom:5px}
+.badge{display:inline-block;background:#1e3a5f;color:#bae6fd;padding:5px 12px;border-radius:999px;font-size:.82rem;margin:3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:20px}
+.card{background:var(--card2);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--accent)}
+.card img{width:100%;height:180px;object-fit:cover;background:#1e293b;display:block}
+.card-body{padding:18px}
+.card h3{margin-top:0}
+.card p{color:var(--muted);font-size:.95rem}
+.project{background:var(--card2);border:1px solid var(--border);border-radius:14px;padding:24px;margin-top:22px}
+.project-header{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+.project-header h3{margin:0}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:16px}
+.gallery figure{margin:0;background:#0b1220;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.gallery img{width:100%;height:170px;object-fit:cover;display:block;background:#1e293b}
+.gallery figcaption{padding:10px;font-size:.85rem;color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin-top:14px}
+th,td{border:1px solid var(--border);padding:11px;text-align:left;vertical-align:top}
+th{background:#1e3a5f;color:#e0f2fe}
+.note{background:#132a44;border-left:4px solid var(--accent);padding:14px 16px;border-radius:8px;margin-top:16px}
+footer{text-align:center;color:var(--muted);padding:30px;font-size:.9rem;border-top:1px solid var(--border)}
+a{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:#04121f;font-weight:bold;padding:10px 18px;border-radius:8px;text-decoration:none;margin-top:8px}
+@media(max-width:600px){header h1{font-size:2rem}nav a{display:inline-block;margin:5px}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>[Ton Prénom NOM]</h1>
+  <p>Étudiant BTS SIO — Option SISR | 2e année</p>
+  <p>Administration systèmes et réseaux · Sécurité · Support informatique</p>
+  <div class="tags">
+    <span class="tag">Windows Server</span>
+    <span class="tag">Linux</span>
+    <span class="tag">Réseaux</span>
+    <span class="tag">Virtualisation</span>
+    <span class="tag">Cybersécurité</span>
+  </div>
+</header>
+
+<nav>
+  <a href="#apropos">À propos</a>
+  <a href="#competences">Compétences</a>
+  <a href="#projets">Projets</a>
+  <a href="#realisations">Réalisations</a>
+  <a href="#bloc1">Bloc 1</a>
+  <a href="#veille">Veille</a>
+  <a href="#e5">Épreuve E5</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="apropos">
+  <h2>À propos de moi</h2>
+  <p>Je suis étudiant en deuxième année de BTS SIO, option SISR (Solutions d’Infrastructure, Systèmes et Réseaux).</p>
+  <p>[Présente ici ton parcours : lycée/CFA, alternance ou stage, entreprises accueillantes, dates, missions principales.]</p>
+  <ul>
+    <li><strong>Formation :</strong> BTS SIO option SISR — [Établissement]</li>
+    <li><strong>Stage / Alternance :</strong> [Entreprise] — [Poste / service]</li>
+    <li><strong>Objectif professionnel :</strong> [Technicien systèmes et réseaux, administrateur infrastructure, technicien support N2, etc.]</li>
+  </ul>
+</section>
+
+<section id="competences">
+  <h2>Compétences techniques</h2>
+  <div class="grid">
+    <div class="card"><div class="card-body">
+      <h3>Systèmes</h3>
+      <span class="badge">Windows Server</span><span class="badge">Active Directory</span><span class="badge">GPO</span><span class="badge">Linux Debian</span><span class="badge">Ubuntu Server</span>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <h3>Réseaux</h3>
+      <span class="badge">TCP/IP</span><span class="badge">VLAN</span><span class="badge">Routage</span><span class="badge">DHCP</span><span class="badge">DNS</span><span class="badge">Switch / Routeur</span>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <h3>Sécurité</h3>
+      <span class="badge">Pare-feu</span><span class="badge">VPN</span><span class="badge">Supervision</span><span class="badge">Sauvegarde</span><span class="badge">Gestion des accès</span>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <h3>Support et outils</h3>
+      <span class="badge">GLPI</span><span class="badge">Déploiement</span><span class="badge">Virtualisation</span><span class="badge">Documentation</span><span class="badge">Assistance utilisateurs</span>
+    </div></div>
+  </div>
+</section>
+
+<section id="projets">
+  <h2>Mes projets en images</h2>
+  <p>Voici un aperçu de mes réalisations. Remplace chaque image par une capture de ton environnement, de ta configuration ou du résultat obtenu.</p>
+  <div class="grid">
+    <div class="card">
+      <img src="images/projet-1.jpg" alt="Aperçu du projet 1">
+      <div class="card-body">
+        <h3>[Projet 1]</h3>
+        <p>[Exemple : mise en place d’un Active Directory, VLAN, serveur de fichiers, supervision…]</p>
+        <a class="btn" href="#realisation-1">Voir le projet</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/projet-2.jpg" alt="Aperçu du projet 2">
+      <div class="card-body">
+        <h3>[Projet 2]</h3>
+        <p>[Exemple : pare-feu, VPN, sauvegarde, déploiement de postes…]</p>
+        <a class="btn" href="#realisation-2">Voir le projet</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/projet-3.jpg" alt="Aperçu du projet 3">
+      <div class="card-body">
+        <h3>[Projet 3]</h3>
+        <p>[Exemple : GLPI, gestion de parc, incident, assistance utilisateur…]</p>
+        <a class="btn" href="#realisation-3">Voir le projet</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="realisations">
+  <h2>Réalisations professionnelles</h2>
+  <p>Présente 3 à 5 réalisations. Pour chacune, explique le contexte, le besoin, ta démarche, les choix techniques, les tests réalisés et le résultat obtenu.</p>
+
+  <div class="project" id="realisation-1">
+    <div class="project-header">
+      <h3>Réalisation 1 — [Titre du projet]</h3>
+      <span class="badge">[Infrastructure réelle / CFA / Entreprise]</span>
+    </div>
+    <p><strong>Contexte :</strong> [Entreprise, service, situation de départ.]</p>
+    <p><strong>Besoin :</strong> [Problème à résoudre ou objectif du projet.]</p>
+    <p><strong>Démarche :</strong></p>
+    <ul>
+      <li>Analyse du besoin et recensement du matériel</li>
+      <li>Conception de la solution et choix techniques</li>
+      <li>Mise en œuvre et configuration</li>
+      <li>Tests, documentation et restitution</li>
+    </ul>
+    <p><strong>Technologies utilisées :</strong> [Windows Server, Active Directory, VLAN, pfSense, GLPI, etc.]</p>
+    <p><strong>Compétences mobilisées :</strong> [Précise les compétences du référentiel.]</p>
+    <div class="gallery">
+      <figure>
+        <img src="images/projet-1-capture-1.jpg" alt="Capture 1 du projet 1">
+        <figcaption>[Explique ce que montre la capture : configuration, test, résultat…]</figcaption>
+      </figure>
+      <figure>
+        <img src="images/projet-1-capture-2.jpg" alt="Capture 2 du projet 1">
+        <figcaption>[Explique ce que montre la capture.]</figcaption>
+      </figure>
+      <figure>
+        <img src="images/projet-1-schema.jpg" alt="Schéma du projet 1">
+        <figcaption>[Schéma réseau, architecture ou procédure.]</figcaption>
+      </figure>
+    </div>
+    <p><strong>Bilan :</strong> [Difficultés rencontrées, solutions apportées, compétences acquises.]</p>
+  </div>
+
+  <div class="project" id="realisation-2">
+    <div class="project-header">
+      <h3>Réalisation 2 — [Titre du projet]</h3>
+      <span class="badge">[Contexte]</span>
+    </div>
+    <p><strong>Contexte :</strong> [À compléter.]</p>
+    <p><strong>Besoin :</strong> [À compléter.]</p>
+    <p><strong>Démarche :</strong> [À compléter.]</p>
+    <p><strong>Technologies utilisées :</strong> [À compléter.]</p>
+    <p><strong>Compétences mobilisées :</strong> [À compléter.]</p>
+    <div class="gallery">
+      <figure>
+        <img src="images/projet-2-capture-1.jpg" alt="Capture 1 du projet 2">
+        <figcaption>[Explique la capture.]</figcaption>
+      </figure>
+      <figure>
+        <img src="images/projet-2-capture-2.jpg" alt="Capture 2 du projet 2">
+        <figcaption>[Explique la capture.]</figcaption>
+      </figure>
+    </div>
+    <p><strong>Bilan :</strong> [À compléter.]</p>
+  </div>
+
+  <div class="project" id="realisation-3">
+    <div class="project-header">
+      <h3>Réalisation 3 — [Titre du projet]</h3>
+      <span class="badge">[Contexte]</span>
+    </div>
+    <p><strong>Contexte :</strong> [À compléter.]</p>
+    <p><strong>Besoin :</strong> [À compléter.]</p>
+    <p><strong>Démarche :</strong> [À compléter.]</p>
+    <p><strong>Technologies utilisées :</strong> [À compléter.]</p>
+    <p><strong>Compétences mobilisées :</strong> [À compléter.]</p>
+    <div class="gallery">
+      <figure>
+        <img src="images/projet-3-capture-1.jpg" alt="Capture 1 du projet 3">
+        <figcaption>[Explique la capture.]</figcaption>
+      </figure>
+      <figure>
+        <img src="images/projet-3-capture-2.jpg" alt="Capture 2 du projet 3">
+        <figcaption>[Explique la capture.]</figcaption>
+      </figure>
+    </div>
+    <p><strong>Bilan :</strong> [À compléter.]</p>
+  </div>
+</section>
+
+<section id="bloc1">
+  <h2>Couverture des compétences — Bloc 1</h2>
+  <p>Le dossier doit permettre au jury de vérifier que l’ensemble des compétences du bloc a été mobilisé à travers les réalisations présentées.</p>
+  <table>
+    <tr><th>Compétence du Bloc 1</th><th>Réalisation qui la mobilise</th><th>Preuve / lien</th></tr>
+    <tr><td>Gérer le patrimoine informatique</td><td>[Projet : inventaire, GLPI, gestion des habilitations…]</td><td><a href="#realisation-1">Voir</a></td></tr>
+    <tr><td>Répondre aux incidents et aux demandes d’assistance et d’évolution</td><td>[Projet : ticket, incident, assistance utilisateur…]</td><td><a href="#realisation-3">Voir</a></td></tr>
+    <tr><td>Développer la présence en ligne de l’organisation</td><td>[Projet : site vitrine, intranet, service web…]</td><td><a href="#">Voir</a></td></tr>
+    <tr><td>Travailler en mode projet</td><td>[Projet : planification, rôles, livrables, bilan…]</td><td><a href="#realisation-1">Voir</a></td></tr>
+    <tr><td>Mettre à disposition des utilisateurs un service informatique</td><td>[Projet : déploiement de poste, service, application…]</td><td><a href="#realisation-2">Voir</a></td></tr>
+    <tr><td>Organiser son développement professionnel</td><td>[Veille, certification, formation, bilan de compétences…]</td><td><a href="#veille">Voir</a></td></tr>
+  </table>
+</section>
+
+<section id="veille">
+  <h2>Veille technologique</h2>
+  <p>Présente un sujet de veille suivi pendant ta formation, par exemple la cybersécurité, le cloud, la virtualisation, l’intelligence artificielle appliquée à l’IT ou les évolutions réseau.</p>
+  <ul>
+    <li><strong>Sujet :</strong> [Exemple : vulnérabilités et bonnes pratiques de sécurité.]</li>
+    <li><strong>Méthode de veille :</strong> [Flux RSS, newsletters, sites spécialisés, LinkedIn, alertes Google.]</li>
+    <li><strong>Sources :</strong> [ANSSI, CERT-FR, ZDNet, Le Monde Informatique, blogs techniques.]</li>
+    <li><strong>Exemple d’article analysé :</strong> [Titre, date, résumé et impact pour une entreprise.]</li>
+  </ul>
+</section>
+
+<section id="e5">
+  <h2>Tableau de synthèse — Épreuve E5</h2>
+  <p>Le tableau officiel, fourni en annexe de la circulaire nationale d’organisation, doit être complété et apporté le jour de la convocation à l’épreuve.</p>
+  <table>
+    <tr><th>Réalisation</th><th>Contexte</th><th>Compétences mobilisées</th><th>Lien / preuve</th></tr>
+    <tr><td>[Projet 1]</td><td>[Entreprise / CFA]</td><td>[Compétences du référentiel]</td><td><a href="#realisation-1">Voir la réalisation</a></td></tr>
+    <tr><td>[Projet 2]</td><td>[Entreprise / CFA]</td><td>[Compétences du référentiel]</td><td><a href="#realisation-2">Voir la réalisation</a></td></tr>
+    <tr><td>[Projet 3]</td><td>[Entreprise / CFA]</td><td>[Compétences du référentiel]</td><td><a href="#realisation-3">Voir la réalisation</a></td></tr>
+  </table>
+  <p><strong>Attestations de stage :</strong> ajoute ici les liens vers tes attestations de première et deuxième année.</p>
+  <div class="note">
+    <strong>Modalités à respecter :</strong>
+    <ul>
+      <li>Dépose sur Cyclades, en un seul PDF, les certificats de stage ou attestations de présence en entreprise, ainsi que les éventuelles dérogations ou décisions de positionnement.</li>
+      <li>Apporte le tableau de synthèse officiel le jour de la convocation.</li>
+      <li>Si le portfolio est en ligne, viens avec un ordinateur ou une tablette fonctionnelle et assure la connexion Internet.</li>
+      <li>Privilégie des réalisations sur une infrastructure réelle : une simple simulation logicielle ne suffit pas à elle seule.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email professionnel : <a href="mailto:ton.email@exemple.fr">ton.email@exemple.fr</a></p>
+  <p>LinkedIn : <a href="#">[Ton profil LinkedIn]</a></p>
+  <p>GitHub : <a href="#">[Ton profil GitHub]</a></p>
+  <p><a class="btn" href="cv.pdf">Télécharger mon CV</a></p>
+</section>
+
+</main>
+
+<footer>Portfolio BTS SIO SISR — [Ton Prénom NOM] — Année 2025/2026</footer>
+
+</body>
+</html>
